@@ -17,7 +17,9 @@ export default function PureFunctionalComponent() {
         decrement={<DecrementButton handleClick={handleDecrement} />}
       />
 
-      <Link to="/">Back</Link>
+      <div className='link'>
+        <Link to="/">Back</Link>
+      </div>
     </div>
   );
 }
