@@ -1,8 +1,8 @@
 .btn {
   background: black;
   color: white;
-  padding: .25rem;
-  margin: .5rem 0;
+  padding: 0.25rem;
+  margin: 0.5rem 0;
 }
 
 .btn-primary {
@@ -11,4 +11,8 @@
 
 .link {
   margin-top: 2rem;
+}
+
+.nested-div {
+  padding-left: 1rem;
 }
